@@ -22,6 +22,12 @@
       "view": "simpleArray"
     },
     {
+      "title": "Web Accessibility - Project1",
+      "hash": "#project1",
+      "view": "project1",
+      "hasStyle": true
+    },
+    {
       "title": "About",
       "hash": "#about",
       "view": "about",
