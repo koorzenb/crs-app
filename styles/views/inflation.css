@@ -1,0 +1,49 @@
+#myContainer {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, mad);
+}
+
+div {
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+[type="header"] {
+    background: silver;
+}
+
+[type="person"] {
+    background: #dedede;
+    align-content: center;
+}
+
+[type="cell"] {
+    border-bottom: #dedede solid 1px;
+    border-right: #dedede solid 1px;
+    display: flex;
+}
+
+.icon {
+    width: 2rem;
+    height: 2rem;
+}
+
+[hidden] {
+    display: none;
+}
+
+h2 {
+    text-align: center;
+    color: var(--cl-primary);
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+}
+
+svg.icon {
+
+}
