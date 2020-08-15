@@ -1,16 +1,13 @@
 <h2 data-title.once="title">${title}</h2>
-
 <h3>Helpful articles</h1>
 <div id="container">
     <template for.once="item of items">
-        <article>
-            <article class="clip">
-                <img src="/media/examples/painted-hand-298-332.jpg" alt="" />
+        <article class="clip">
+            <img src="/app/project1/images/bird.png" width=140px height=100px alt="bird in a nest" />
 
-                <h2>This is the ${item.position} article</h2>
-                <p>A short blurb about the article. The main content will be on another screen when clicking on the link</p>
-                <a href=${item.link}></a>     
-            </article>
-        </div>
+            <h2>This is the ${item.position} article</h2>
+            <p>A short blurb about the article. The main content will be on another screen when clicking on the link</p>
+            <a href=${item.link}></a>     
+        </article>
     </template>
 </div>

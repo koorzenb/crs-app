@@ -36,8 +36,10 @@ export default class Project1 extends ViewBase {
 
         const result = [];
          articles.forEach(item => {
-            result.push({article: item.id, value: item.position, link: item.link});
+            result.push({article: item.id, position: item.position, link: item.link});
          });
+
+         return result;
     }
 
 }
